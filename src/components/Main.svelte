@@ -4,10 +4,10 @@
     let steps = [
         {name: 'Movie recommendation based on Netflix customer reviews', icon:'fa-solid fa-clapperboard',href:"https://www.google.com"},
         {name: 'Chess engine', icon:'fa-solid fa-chess-board',href:"https://www.google.com"},
-        {name: 'StrasMemory', icon:'fa-solid fa-map-location-dot',href:"https://www.google.com"},
-        {name: 'TCP client-proxy-server communication with error detection', icon:'fa-solid fa-server',href:"https://www.google.com"},
-        {name: '2D and 3D Games with UE4', icon:'fa-solid fa-gamepad',href:"https://www.google.com"},
-        {name: 'Creation of a physics engine', icon:'fa-solid fa-scale-unbalanced',href:"https://www.google.com"},
+        {name: 'StrasMemory', icon:'fa-solid fa-map-location-dot',href:"https://strasmemory.lucasmarchand.dev/"},
+        {name: 'TCP clients-proxy-server communication with error detection', icon:'fa-solid fa-server',href:"https://www.google.com"},
+        {name: '2D and 3D Games with UE4', icon:'fa-solid fa-gamepad',href:"#"},
+        {name: 'Creation of a physics engine', icon:'fa-solid fa-scale-unbalanced',href:"#"},
 
     ]
 
@@ -42,7 +42,6 @@
                 { src: 'images/icons/numpy.svg', alt: 'Numpy' }
             ]
         },
-        // Add more rows as needed...
     ];
 
 </script>
@@ -74,39 +73,33 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores expedita odit ratione laboriosam maiores aliquam facere beatae doloremque assumenda porro!
-                    <strong class="text-violet-400">Mettre des choses importantes</strong>
+                <p>My project provides personalized movie recommendations by analyzing Netflix customer reviews. Using feedback and sentiment analysis, the system suggests films that match individual preferences and viewing habits.
                 </p>
             </Step>
             
             <Step step={steps[1]}>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores expedita odit ratione laboriosam maiores aliquam facere beatae doloremque assumenda porro!
-                    <strong class="text-violet-400">Mettre des choses importantes</strong>
+                <p>My project is a chess engine that lets users play without worrying about the rules, automatically handling legal moves. It can also be easily modified to power a bot that plays chess autonomously.
+                    <!--<strong class="text-violet-400">Mettre des choses importantes</strong>-->
                 </p>
             </Step>
             
             <Step step={steps[2]}>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores expedita odit ratione laboriosam maiores aliquam facere beatae doloremque assumenda porro!
-                    <strong class="text-violet-400">Mettre des choses importantes</strong>
+                <p>StrasMemory is a web-based game where players have to find tram stops in Strasbourg. It combines fun and geography, challenging users to locate the city's tram stops on a map.
                 </p>
             </Step>
 
             <Step step={steps[3]}>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores expedita odit ratione laboriosam maiores aliquam facere beatae doloremque assumenda porro!
-                    <strong class="text-violet-400">Mettre des choses importantes</strong>
+                <p>TCP clients-proxy-server communication involves clients connecting to a server through a proxy, with error detection mechanisms ensuring data integrity during transmission.
                 </p>
             </Step>
             
             <Step step={steps[4]}>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores expedita odit ratione laboriosam maiores aliquam facere beatae doloremque assumenda porro!
-                    <strong class="text-violet-400">Mettre des choses importantes</strong>
+                <p>With UE4, I've developed a 2D Mario-like game and a small 3D zombie survival game similar to Call of Duty: Black Ops.
                 </p>
             </Step>
 
             <Step step={steps[5]}>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores expedita odit ratione laboriosam maiores aliquam facere beatae doloremque assumenda porro!
-                    <strong class="text-violet-400">Mettre des choses importantes</strong>
-                </p>
+                <p>I'm developing a physics engine from scratch to better understand physics simulations, using the book <i>Game Physics Engine Development</i> by Ian Millington as a key reference.</p>
             </Step>
         </div>
     </section>
