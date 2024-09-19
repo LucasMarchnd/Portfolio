@@ -10,7 +10,7 @@
 </script>
 
 <header class={'sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid'+ (
-    y>0 ? 'py-4 bg-slate-950 border-violet-950' : 'py-6 bg-transparent border-transparent'
+    y>0 ? 'py-4 bg-slate-50 border-violet-50' : 'py-6 bg-transparent border-transparent'
 )}>
     <h1>
         <b class="font-bold poppins">Lucas</b> Marchand

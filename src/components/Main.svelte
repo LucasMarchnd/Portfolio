@@ -117,7 +117,7 @@
         <hr class="h-px bg-gray-200 border-0 dark:bg-gray-700">
         {/each}
     </section>
-    <section id="cv" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col items-center gap-8 bg-slate-950">
+    <section id="cv" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col items-center gap-8 bg-slate-50">
         <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
             Download my resume
         </h2>
