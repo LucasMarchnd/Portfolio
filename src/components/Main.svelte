@@ -54,8 +54,7 @@
                 <span class="poppins text-violet-400"> AI Student</span> 
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                Bla <span class="text-violet-400">Blabla</span> Blablabla <br/>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam animi ducimus dolorem possimus eum adipisci excepturi maiores facilis magni modi?
+                I am currently looking for a 2-month engineering internship in the field of <span class="text-violet-400">Artificial Intelligence</span> and <span class="text-violet-400">Data Science</span> as part of my second year of engineering studies.
             </p>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
@@ -63,11 +62,28 @@
         </div>
     </section>
 
+    <section id="aboutMe" class="grid grid-cols-1 gap-10 py-8 sm:py-14 justify-center text-center">
+        <div class="flex flex-col justify-center gap-6 md:gap-8 lg:gap-10 max-w-3xl mx-auto">
+            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+                About <span class="poppins text-violet-400">Me</span>
+            </h2>
+            <p class="text-base sm:text-lg md:text-xl">
+                I am currently studying <span class="text-violet-400">Data Science and Artificial Intelligence</span> at Télécom Physique Strasbourg, with a strong passion for technology and data analysis.
+                In my latest work experience, I worked as a temporary employee at a <span class="text-violet-400">Weldom warehouse</span>, where I developed excellent organizational skills and learned how to thrive in a fast-paced environment.
+                My goal is to combine my technical skills with real-world experience to solve complex problems using AI and data.
+            </p>
+        </div>
+    </section>
+    
+    
 
+    
     <section id="projets" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class = "flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
-                <p class="underline">Mes projets :</p>
+                <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+                    A few of my <span class="poppins text-violet-400">notable projects</span>
+                </h2>
             </h6>
         </div>
 
@@ -106,9 +122,9 @@
 
     <section id="Expérience" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         <div class = "flex flex-col gap-2 text-center">
-            <h6 class="text-lg sm:text-xl md:text-2xl">
-                <p class="underline">Mon Expérience :</p>
-            </h6>
+            <h4 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+                My Experience with <span class="poppins text-violet-400">Programming Languages</span> and <span class="poppins text-violet-400">Tools</span>:
+            </h4>
         </div>
 
         
