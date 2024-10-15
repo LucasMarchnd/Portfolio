@@ -44,6 +44,9 @@
         },
     ];
 
+
+
+    import resume from '$lib/assets/resume.pdf';
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -139,7 +142,7 @@
         </h2>
     
         <div class="flex justify-center mt-4">
-            <a href="/path_to_your_cv.pdf" download class="bg-white text-black py-3 px-6 rounded-lg shadow hover:bg-gray-200 transition duration-300">
+            <a download="resume.pdf" target="_blank" href={resume} class="bg-white text-black py-3 px-6 rounded-lg shadow hover:bg-gray-200 transition duration-300">
                 Download my resume
             </a>
         </div>
