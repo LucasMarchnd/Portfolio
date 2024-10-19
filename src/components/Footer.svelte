@@ -5,14 +5,14 @@
     <div class="flex flex-col gap-4 items-center justify-center">
         <p><b class="pr-2">Email </b><a href="mailto:contact@lucasmarchand.dev">contact@lucasmarchand.dev</a></p>
         <p><b class="pr-2">Github</b>
-            <a class="text-violet-400" target="_blank" href="https://github.com/LucasMarchnd">
+            <a class="text-violet-400" target="_blank" href="https://www.github.com/LucasMarchnd">
                 lucasmarchnd <sup><span class="text-xs scale-75 pl-0.5">
                     <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
                 </span></sup>
             </a>
         </p>
         <p><b class="pr-2">LinkedIn</b>
-            <a class="text-violet-400" target="_blank" href="#">
+            <a class="text-violet-400" target="_blank" href="https://www.linkedin.com/in/lucassmarchand/">
                 lucasmarchnd <sup><span class="text-xs scale-75 pl-0.5">
                     <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
                 </span></sup>
